@@ -1,0 +1,28 @@
+C:\Users\g012188e\Documents\Visual Studio 2017\Projects\NetworkLibrary\ClientLibrary\bin\Debug\ClientLibrary.dll
+C:\Users\g012188e\Documents\Visual Studio 2017\Projects\NetworkLibrary\ClientLibrary\bin\Debug\ClientLibrary.pdb
+C:\Users\g012188e\Documents\Visual Studio 2017\Projects\NetworkLibrary\ClientLibrary\bin\Debug\SharedLibrary.dll
+C:\Users\g012188e\Documents\Visual Studio 2017\Projects\NetworkLibrary\ClientLibrary\bin\Debug\SharedLibrary.pdb
+C:\Users\g012188e\Documents\Visual Studio 2017\Projects\NetworkLibrary\ClientLibrary\obj\Debug\ClientLibrary.csprojResolveAssemblyReference.cache
+C:\Users\g012188e\Documents\Visual Studio 2017\Projects\NetworkLibrary\ClientLibrary\obj\Debug\ClientLibrary.csproj.CoreCompileInputs.cache
+C:\Users\g012188e\Documents\Visual Studio 2017\Projects\NetworkLibrary\ClientLibrary\obj\Debug\ClientLibrary.dll
+C:\Users\g012188e\Documents\Visual Studio 2017\Projects\NetworkLibrary\ClientLibrary\obj\Debug\ClientLibrary.pdb
+H:\Multiplayer\Assignment_1\NetworkLibrary\NetworkLibrary\ClientLibrary\bin\Debug\ClientLibrary.dll
+H:\Multiplayer\Assignment_1\NetworkLibrary\NetworkLibrary\ClientLibrary\bin\Debug\ClientLibrary.pdb
+H:\Multiplayer\Assignment_1\NetworkLibrary\NetworkLibrary\ClientLibrary\bin\Debug\SharedLibrary.dll
+H:\Multiplayer\Assignment_1\NetworkLibrary\NetworkLibrary\ClientLibrary\bin\Debug\SharedLibrary.pdb
+H:\Multiplayer\Assignment_1\NetworkLibrary\NetworkLibrary\ClientLibrary\obj\Debug\ClientLibrary.csprojResolveAssemblyReference.cache
+H:\Multiplayer\Assignment_1\NetworkLibrary\NetworkLibrary\ClientLibrary\obj\Debug\ClientLibrary.csproj.CoreCompileInputs.cache
+H:\Multiplayer\Assignment_1\NetworkLibrary\NetworkLibrary\ClientLibrary\obj\Debug\ClientLibrary.dll
+H:\Multiplayer\Assignment_1\NetworkLibrary\NetworkLibrary\ClientLibrary\obj\Debug\ClientLibrary.pdb
+E:\Multiplayer\Assignment_1\NetworkLibrary\NetworkLibrary\ClientLibrary\obj\Debug\ClientLibrary.csproj.CoreCompileInputs.cache
+E:\Multiplayer\Assignment_1\NetworkLibrary\NetworkLibrary\ClientLibrary\bin\Debug\ClientLibrary.dll
+E:\Multiplayer\Assignment_1\NetworkLibrary\NetworkLibrary\ClientLibrary\bin\Debug\ClientLibrary.pdb
+E:\Multiplayer\Assignment_1\NetworkLibrary\NetworkLibrary\ClientLibrary\bin\Debug\SharedLibrary.dll
+E:\Multiplayer\Assignment_1\NetworkLibrary\NetworkLibrary\ClientLibrary\bin\Debug\SharedLibrary.pdb
+E:\Multiplayer\Assignment_1\NetworkLibrary\NetworkLibrary\ClientLibrary\obj\Debug\ClientLibrary.csprojResolveAssemblyReference.cache
+E:\Multiplayer\Assignment_1\NetworkLibrary\NetworkLibrary\ClientLibrary\obj\Debug\ClientLibrary.dll
+E:\Multiplayer\Assignment_1\NetworkLibrary\NetworkLibrary\ClientLibrary\obj\Debug\ClientLibrary.pdb
+E:\Multiplayer\Assignment_1\NetworkLibrary\NetworkLibrary\ClientLibrary\bin\Debug\protobuf-net.dll
+E:\Multiplayer\Assignment_1\NetworkLibrary\NetworkLibrary\ClientLibrary\bin\Debug\protobuf-net.xml
+H:\Multiplayer\Assignment_1\NetworkLibrary\NetworkLibrary\ClientLibrary\bin\Debug\protobuf-net.dll
+H:\Multiplayer\Assignment_1\NetworkLibrary\NetworkLibrary\ClientLibrary\bin\Debug\protobuf-net.xml

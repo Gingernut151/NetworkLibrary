@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\NUnit3TestAdapter.3.9.0\build\net35\NUnit3TestAdapter.props" Condition="Exists('..\packages\NUnit3TestAdapter.3.9.0\build\net35\NUnit3TestAdapter.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{96297F60-9C44-4B06-BA7D-A47B478D0C2E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>NetworkLibraryUnitTests</RootNamespace>
+    <AssemblyName>NetworkLibraryUnitTests</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="nunit.framework, Version=3.9.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb, processorArchitecture=MSIL">
+      <HintPath>..\packages\NUnit.3.9.0\lib\net45\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ClientTestLibrary\ClientConnections\ClientConnectionTcp\AddListener.cs" />
+    <Compile Include="ClientTestLibrary\ClientConnections\ClientConnectionTcp\AddSerializer.cs" />
+    <Compile Include="ClientTestLibrary\ClientConnections\ClientConnectionTcp\ClearDataPackets.cs" />
+    <Compile Include="ClientTestLibrary\ClientConnections\ClientConnectionTcp\ClientConnectionTCP.cs" />
+    <Compile Include="ClientTestLibrary\ClientConnections\ClientConnectionTcp\CollectDataPackets.cs" />
+    <Compile Include="ClientTestLibrary\ClientConnections\ClientConnectionTcp\GetConnectionName.cs" />
+    <Compile Include="ClientTestLibrary\ClientConnections\ClientConnectionTcp\Send.cs" />
+    <Compile Include="ClientTestLibrary\ClientConnections\ClientConnectionTcp\Start.cs" />
+    <Compile Include="ClientTestLibrary\ClientConnections\ClientConnectionTcp\Stop.cs" />
+    <Compile Include="ClientTestLibrary\ClientConnections\ClientConnectionUdp\AddListener.cs" />
+    <Compile Include="ClientTestLibrary\ClientConnections\ClientConnectionUdp\AddSerializer.cs" />
+    <Compile Include="ClientTestLibrary\ClientConnections\ClientConnectionUdp\ClearDataPackets.cs" />
+    <Compile Include="ClientTestLibrary\ClientConnections\ClientConnectionUdp\ClientConnectionUDP.cs" />
+    <Compile Include="ClientTestLibrary\ClientConnections\ClientConnectionUdp\CollectDataPackets.cs" />
+    <Compile Include="ClientTestLibrary\ClientConnections\ClientConnectionUdp\GetConnectionName.cs" />
+    <Compile Include="ClientTestLibrary\ClientConnections\ClientConnectionUdp\Send.cs" />
+    <Compile Include="ClientTestLibrary\ClientConnections\ClientConnectionUdp\Start.cs" />
+    <Compile Include="ClientTestLibrary\ClientConnections\ClientConnectionUdp\Stop.cs" />
+    <Compile Include="ClientTestLibrary\ClientListener\TCPListener\ClientListenerTcp.cs" />
+    <Compile Include="ClientTestLibrary\ClientListener\TCPListener\GetStream.cs" />
+    <Compile Include="ClientTestLibrary\ClientListener\TCPListener\Start.cs" />
+    <Compile Include="ClientTestLibrary\ClientListener\TCPListener\Stop.cs" />
+    <Compile Include="ClientTestLibrary\ClientListener\UDPListener\ClientListenerUdp.cs" />
+    <Compile Include="ClientTestLibrary\ClientListener\UDPListener\ReceiveUdpPackets.cs" />
+    <Compile Include="ClientTestLibrary\ClientListener\UDPListener\SendUdpPackets.cs" />
+    <Compile Include="ClientTestLibrary\ClientListener\UDPListener\Start.cs" />
+    <Compile Include="ClientTestLibrary\ClientListener\UDPListener\Stop.cs" />
+    <Compile Include="ClientTestLibrary\Client\AddConnection.cs" />
+    <Compile Include="ClientTestLibrary\Client\ClearMessage.cs" />
+    <Compile Include="ClientTestLibrary\Client\ReceiveMessage.cs" />
+    <Compile Include="ClientTestLibrary\Client\SendMessage.cs" />
+    <Compile Include="ClientTestLibrary\Client\Start.cs" />
+    <Compile Include="ClientTestLibrary\Client\Client.cs" />
+    <Compile Include="ClientTestLibrary\Client\Stop.cs" />
+    <Compile Include="ServerTestLibrary\ServerClient\TCPClient\AddListener.cs" />
+    <Compile Include="ServerTestLibrary\ServerClient\TCPClient\AddSerializer.cs" />
+    <Compile Include="ServerTestLibrary\ServerClient\TCPClient\Send.cs" />
+    <Compile Include="ServerTestLibrary\ServerClient\TCPClient\Start.cs" />
+    <Compile Include="ServerTestLibrary\ServerClient\TCPClient\Stop.cs" />
+    <Compile Include="ServerTestLibrary\ServerClient\TCPClient\TCPClient.cs" />
+    <Compile Include="ServerTestLibrary\ServerClient\UDPClient\AddListener.cs" />
+    <Compile Include="ServerTestLibrary\ServerClient\UDPClient\AddSerializer.cs" />
+    <Compile Include="ServerTestLibrary\ServerClient\UDPClient\Send.cs" />
+    <Compile Include="ServerTestLibrary\ServerClient\UDPClient\Start.cs" />
+    <Compile Include="ServerTestLibrary\ServerClient\UDPClient\Stop.cs" />
+    <Compile Include="ServerTestLibrary\ServerClient\UDPClient\UDPClient.cs" />
+    <Compile Include="ServerTestLibrary\ServerConnection\AcceptClients.cs" />
+    <Compile Include="ServerTestLibrary\ServerConnection\AddListener.cs" />
+    <Compile Include="ServerTestLibrary\ServerConnection\AddSerializer.cs" />
+    <Compile Include="ServerTestLibrary\ServerConnection\ClearMessages.cs" />
+    <Compile Include="ServerTestLibrary\ServerConnection\GetConnectionName.cs" />
+    <Compile Include="ServerTestLibrary\ServerConnection\ReceiveMessages.cs" />
+    <Compile Include="ServerTestLibrary\ServerConnection\SendPacketToAll.cs" />
+    <Compile Include="ServerTestLibrary\ServerConnection\SendPacketToClient.cs" />
+    <Compile Include="ServerTestLibrary\ServerConnection\ServerConnection.cs" />
+    <Compile Include="ServerTestLibrary\ServerConnection\Start.cs" />
+    <Compile Include="ServerTestLibrary\ServerConnection\Stop.cs" />
+    <Compile Include="ServerTestLibrary\ServerConnection\StopListener.cs" />
+    <Compile Include="ServerTestLibrary\ServerListeners\TcpListener\AcceptSocket.cs" />
+    <Compile Include="ServerTestLibrary\ServerListeners\TcpListener\GetSocket.cs" />
+    <Compile Include="ServerTestLibrary\ServerListeners\TcpListener\Start.cs" />
+    <Compile Include="ServerTestLibrary\ServerListeners\TcpListener\Stop.cs" />
+    <Compile Include="ServerTestLibrary\ServerListeners\UdpListener\ReceiveUdpPacket.cs" />
+    <Compile Include="ServerTestLibrary\ServerListeners\UdpListener\SendUdpPacket.cs" />
+    <Compile Include="ServerTestLibrary\ServerListeners\UdpListener\Start.cs" />
+    <Compile Include="ServerTestLibrary\ServerListeners\UdpListener\Stop.cs" />
+    <Compile Include="ServerTestLibrary\ServerListeners\TcpListener\TcpListener.cs" />
+    <Compile Include="ServerTestLibrary\ServerListeners\UdpListener\UdpListener.cs" />
+    <Compile Include="ServerTestLibrary\Server\AddConnection.cs" />
+    <Compile Include="ServerTestLibrary\Server\AllowConnection.cs" />
+    <Compile Include="ServerTestLibrary\Server\ClearMessages.cs" />
+    <Compile Include="ServerTestLibrary\Server\ReceiveMessages.cs" />
+    <Compile Include="ServerTestLibrary\Server\RemoveConnection.cs" />
+    <Compile Include="ServerTestLibrary\Server\SendPacketToAll.cs" />
+    <Compile Include="ServerTestLibrary\Server\SendPacketToClient.cs" />
+    <Compile Include="ServerTestLibrary\Server\Server.cs" />
+    <Compile Include="ServerTestLibrary\Server\Start.cs" />
+    <Compile Include="ServerTestLibrary\Server\Stop.cs" />
+    <Compile Include="SharedTestLibrary\DataPacket\ChatMessagePacket.cs" />
+    <Compile Include="SharedTestLibrary\DataPacket\UsernamePacket.cs" />
+    <Compile Include="SharedTestLibrary\Serializer\DotNetSerializer\Deserialize.cs" />
+    <Compile Include="SharedTestLibrary\Serializer\DotNetSerializer\Serialize.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SharedTestLibrary\Serializer\ProtoBuf\Deserialize.cs" />
+    <Compile Include="SharedTestLibrary\Serializer\ProtoBuf\Serialize.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ClientLibrary\ClientLibrary.csproj">
+      <Project>{f1bd7acf-e3a3-4027-a455-c87b28521d82}</Project>
+      <Name>ClientLibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ServerLibrary\ServerLibrary.csproj">
+      <Project>{bd23ed11-9929-49da-9154-0e00aa6ebf42}</Project>
+      <Name>ServerLibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SharedLibrary\SharedLibrary.csproj">
+      <Project>{e09234b7-41ae-4927-8887-b7407df6a654}</Project>
+      <Name>SharedLibrary</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{82A7F48D-3B50-4B1E-B82E-3ADA8210C358}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="SharedTestLibrary\Common\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\NUnit3TestAdapter.3.9.0\build\net35\NUnit3TestAdapter.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\NUnit3TestAdapter.3.9.0\build\net35\NUnit3TestAdapter.props'))" />
+  </Target>
+</Project>
